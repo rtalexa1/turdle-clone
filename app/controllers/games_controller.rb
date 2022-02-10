@@ -1,4 +1,5 @@
 class GamesController < ApplicationController
-  def show
+  def new
+    @game = Game.create
   end
 end
